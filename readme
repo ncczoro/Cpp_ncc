@@ -1,10 +1,19 @@
-dau tien thi tai git cms roi tao thu muc mois roi git clone no ve
+dau tien thi tai git cms. tao thu muc moi roi chuot phai git bash roi git clone no ve
 
 Git status de xem minh da them xoa sua gi 
 
 thêm moii file: copy fie hoac tao moi roi git add <tên file> hoac git add *  add tat ca fiel moi,
 nhung no chua luu vao local, phai commit len moi luu vao local
 
-git comit -m "cho nay ghi comment", file nay moi o local muon github dong bo voi chung ta thi
+git commit -m "cho nay ghi comment", file nay moi o local muon github dong bo voi chung ta thi
 
 git push no len
+//--------------------------------------
+muon xem lai cac ban truoc khi push no len
+git log de lay id
+nhan ctrl C de dung len git log roi dung git revert <id> de lay noi dung theo id
+sau do nhan ESC roi shift : q de quay lai man hinh git bash, git status de xem thu
+luc nay mo file len thi no da bi quay lai ban cu theo id. muon day len thi git push
+//---------------------------------------
+neu co ai sua file tren git thub ma o local ta chua cap nhat thi dung len 
+git pull de dong bo voi tren gitthub
