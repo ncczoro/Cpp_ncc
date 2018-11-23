@@ -1,8 +1,8 @@
-dau tien thi tai git cms. tao thu muc moi roi chuot phai git bash roi git clone no ve
+dau tien thi tai git scm. tao thu muc moi roi chuot phai git bash roi git clone no ve
 
 Git status de xem minh da them xoa sua gi 
 
-thêm moii file: copy fie hoac tao moi roi git add <tên file> hoac git add *  add tat ca fiel moi,
+thÃªm moii file: copy fie hoac tao moi roi git add <tÃªn file> hoac git add *  add tat ca fiel moi,
 nhung no chua luu vao local, phai commit len moi luu vao local
 
 git commit -m "cho nay ghi comment", file nay moi o local muon github dong bo voi chung ta thi
