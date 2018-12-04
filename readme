@@ -2,11 +2,12 @@ dau tien thi tai git scm. tao thu muc moi roi chuot phai git bash roi git clone 
 
 Git status de xem minh da them xoa sua gi 
 
-thêm moii file: copy fie hoac tao moi roi git add <tên file> hoac git add *  add tat ca fiel moi,
+thêm moii file: copy fie hoac tao moi roi 
+git add <tên file> 
+git add *  add tat ca fiel moi,
+git add . để add các file modify, file tạo mới
 nhung no chua luu vao local, phai commit len moi luu vao local
-
 git commit -m "cho nay ghi comment", file nay moi o local muon github dong bo voi chung ta thi
-
 git push no len
 //--------------------------------------
 muon xem lai cac ban truoc khi push no len
@@ -17,3 +18,12 @@ luc nay mo file len thi no da bi quay lai ban cu theo id. muon day len thi git p
 //---------------------------------------
 neu co ai sua file tren git thub ma o local ta chua cap nhat thi dung len 
 git pull de dong bo voi tren gitthub
+//--------------------------------------
+link hướng dẫn git http://rogerdudler.github.io/git-guide/index.vi.html
+git branch để xem đang ở nhánh nào 
+git branch -b <tên nhánh> để vừa tạo mới vừa vào nhánh đó luôn. git branch -d <tên nhánh> để xóa nhánh
+git checkout <tên nhánh> để chuyển qua nhánh tương ứng, khi chuyển nhánh thì code cũng thay đổi theo. back up lại.
+tạo nhánh mới từ nhánh cha thêm, xóa, sửa file xong thì
+git add .
+git commit -m "message"
+rồi git push origin <tên nhánh con>
